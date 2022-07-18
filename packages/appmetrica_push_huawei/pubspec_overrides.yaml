@@ -1,0 +1,3 @@
+dependency_overrides:
+  appmetrica_push_platform_interface:
+    path: ../appmetrica_push_platform_interface

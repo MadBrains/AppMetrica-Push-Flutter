@@ -1,0 +1,27 @@
+name: example_hms
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  huawei_analytics: 6.5.0+300
+  appmetrica_plugin: ^1.0.0
+  appmetrica_push_huawei:
+    path: ../../packages/appmetrica_push_huawei
+
+dependency_overrides:
+  appmetrica_push_platform_interface:
+    path: ../../packages/appmetrica_push_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

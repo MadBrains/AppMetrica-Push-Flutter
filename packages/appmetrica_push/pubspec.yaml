@@ -1,0 +1,24 @@
+name: appmetrica_push
+description: The AppMetrica Push SDK is a set of libraries for working with push notifications.
+version: 1.0.0
+repository: https://github.com/MadBrains/AppMetrica-Push-Flutter
+issue_tracker: https://github.com/MadBrains/AppMetrica-Push-Flutter/issues
+homepage: https://madbrains.ru/
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: '>=2.5.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  appmetrica_push_platform_interface: ^1.0.0
+  appmetrica_push_android: ^1.0.0
+  appmetrica_push_ios: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

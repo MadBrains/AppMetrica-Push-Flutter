@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>478947831240-lsvoru1t5sqqj6l3e6t6uvalv8voqt2l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.478947831240-lsvoru1t5sqqj6l3e6t6uvalv8voqt2l</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBH0AR23pQ2VhcpB8hkt2V_smzqot5xO3Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>478947831240</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ru.madbrains.appmetricaPushTest</string>
+	<key>PROJECT_ID</key>
+	<string>appmetrica-test-5a68d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>appmetrica-test-5a68d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:478947831240:ios:591dc38300ee02310ae4fd</string>
+</dict>
+</plist>

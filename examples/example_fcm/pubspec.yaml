@@ -1,0 +1,32 @@
+name: example_fcm
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core:
+  firebase_analytics:
+  appmetrica_plugin: ^1.0.0
+  appmetrica_push:
+    path: ../../packages/appmetrica_push
+
+dependency_overrides:
+  appmetrica_push_platform_interface:
+    path: ../../packages/appmetrica_push_platform_interface
+  appmetrica_push_android:
+    path: ../../packages/appmetrica_push_android
+  appmetrica_push_ios:
+    path: ../../packages/appmetrica_push_ios
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

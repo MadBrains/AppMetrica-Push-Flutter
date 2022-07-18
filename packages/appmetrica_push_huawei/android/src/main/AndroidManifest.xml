@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ru.madbrains.appmetrica_push_huawei">
+    <application>
+        <receiver android:name=".SilentPushReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="${applicationId}.action.ymp.SILENT_PUSH_RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider
+            android:name=".InitProvider"
+            android:authorities="${applicationId}.initprovider"
+            android:exported="false"
+            android:initOrder="99" /> <!-- Firebase = 100, using 99 to run after Firebase initialises (highest first) -->
+        <service
+            android:name="com.yandex.appmetrica.push.hms.MetricaHmsMessagingService"
+            android:exported="true"
+            android:permission="${applicationId}.permission.PROCESS_PUSH_MSG">
+            <intent-filter android:priority="100">
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice" />
+        </intent>
+    </queries>
+</manifest>
