@@ -1,0 +1,23 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "pub"
+    directory: "/packages/appmetrica_push/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pub"
+    directory: "/packages/appmetrica_push_android/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pub"
+    directory: "/packages/appmetrica_push_huawei/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pub"
+    directory: "/packages/appmetrica_push_ios/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pub"
+    directory: "/packages/appmetrica_push_platform_interface/"
+    schedule:
+      interval: "weekly"

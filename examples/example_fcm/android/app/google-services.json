@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "478947831240",
+    "project_id": "appmetrica-test-5a68d",
+    "storage_bucket": "appmetrica-test-5a68d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478947831240:android:71d9080d762fd0d80ae4fd",
+        "android_client_info": {
+          "package_name": "com.example.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478947831240-8q6i5teo505hl4d5q6n25ujq109fv24s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZolfEBVSzBrffQ0jxbnbnBIr8MLQZM3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478947831240-8q6i5teo505hl4d5q6n25ujq109fv24s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "478947831240-i3bqvftbc9bjdo3uv29k29cmgm19fuf9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.example"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
