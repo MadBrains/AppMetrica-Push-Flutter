@@ -53,8 +53,8 @@ android {
 
     signingConfigs {
         debug {
-            // SHA1: SHA1: A1:CA:FB:13:59:91:DB:DE:66:70:4E:E6:C4:23:E7:EE:E3:5B:24:53
-            // SHA256: 52:A2:77:87:81:05:EC:5D:CA:1C:BD:59:42:41:7C:C5:20:47:6B:C4:5F:59:0B:A5:C7:1A:D0:C6:AD:09:7D:CB
+            //SHA1: 0B:35:23:DF:C1:D6:A4:68:8D:0E:5F:70:23:52:D3:B7:19:74:F2:AB
+            //SHA256: D4:99:0D:BB:92:FC:A4:92:B1:0F:6D:BE:98:84:A9:01:11:DD:C9:84:D5:71:FC:1F:50:12:AF:BE:06:2B:6F:DC
             storeFile file('./debug.keystore')
             storePassword 'android'
             keyAlias = 'androiddebugkey'

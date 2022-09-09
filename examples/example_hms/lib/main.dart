@@ -19,6 +19,8 @@ void main() async {
       .listen((String data) => print('onMessage: $data'));
   AppmetricaPushHuawei.instance.onMessageOpenedApp
       .listen((String data) => print('onMessageOpenedApp: $data'));
+  AppmetricaPushHuawei.instance.tokenStream
+      .listen((Map<String, String?> data) => print('tokenStream: $data'));
 
   await AppmetricaPushHuawei.instance.activate();
 

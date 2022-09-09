@@ -10,9 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  firebase_core:
-  firebase_analytics:
-  appmetrica_plugin: ^1.0.0
+  firebase_core: 1.22.0
+  firebase_analytics: 9.3.4
+  appmetrica_plugin: ^1.0.1
   appmetrica_push:
     path: ../../packages/appmetrica_push
 

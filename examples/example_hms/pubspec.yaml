@@ -11,7 +11,7 @@ dependencies:
     sdk: flutter
 
   huawei_analytics: 6.5.0+300
-  appmetrica_plugin: ^1.0.0
+  appmetrica_plugin: ^1.0.1
   appmetrica_push_huawei:
     path: ../../packages/appmetrica_push_huawei
 

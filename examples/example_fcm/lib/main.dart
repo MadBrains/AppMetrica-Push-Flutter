@@ -4,10 +4,12 @@ import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
+import 'firebase_options.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await FirebaseAnalytics.instance.setAnalyticsCollectionEnabled(true);
 
   await AppMetrica.activate(
@@ -17,6 +19,8 @@ void main() async {
       .listen((String data) => print('onMessage: $data'));
   AppmetricaPush.instance.onMessageOpenedApp
       .listen((String data) => print('onMessageOpenedApp: $data'));
+  AppmetricaPush.instance.tokenStream
+      .listen((Map<String, String?> data) => print('tokenStream: $data'));
 
   await AppmetricaPush.instance.activate();
 
